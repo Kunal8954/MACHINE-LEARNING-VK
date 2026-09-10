@@ -12,7 +12,7 @@ Y = data["Salary"]
 print(Y)
 
 
-X_train,x_test,Y_train,y_test = train_test_split(X, Y, train_size = 0.2, random_state = 42)
+X_train,x_test,Y_train,y_test = train_test_split(X, Y, test_size=0.2, random_state = 42)
 
 
 

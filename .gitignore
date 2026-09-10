@@ -1,0 +1,24 @@
+# Virtual environments
+tf_env/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow / Keras
+*.h5
+*.keras
+saved_model/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
